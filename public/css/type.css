@@ -1,0 +1,486 @@
+body {
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    background-color: #ffffff;
+      margin: 0;
+      padding: 0;
+  }
+
+  /* navbar */
+.navbar {
+  background-color: white; /* Warna latar belakang navbar */
+  z-index: 1000; /* Pastikan navbar di atas elemen lain */
+  position: sticky; /* Tetap berada di posisi tetap saat di-scroll */
+  width: 100%; /* Lebar 100% dari viewport */
+  top: 0; /* Posisi di bagian atas viewport */
+  left: 0; /* Posisi di sisi kiri viewport */
+  padding: 10px 0 !important; /* Mengurangi padding atas dan bawah */
+  box-sizing: border-box; /* Termasuk padding dalam perhitungan lebar */
+}
+
+/* Tambahan untuk menghindari konten terpotong oleh navbar */
+.hero_area {
+  margin-top: -2000px; /* Sesuaikan dengan tinggi navbar */
+}
+
+/* Menghapus padding pada container-fluid yang menyebabkan masalah */
+.header_section .container-fluid {
+  padding: 0; /* Menghapus padding agar navbar tidak terganggu */
+}
+
+/* Pastikan navbar-container sesuai dengan lebar layar */
+.header_section .nav_container {
+  margin: 0; /* Menghapus margin jika diperlukan */
+  width: 100%; /* Lebar 100% dari container */
+}
+
+/* Menyesuaikan navbar-link */
+.navbar-nav .nav-link {
+  color: rgb(0, 0, 0);
+}
+
+.navbar-brand img {
+  max-width: 80px;
+}
+
+/* Mengatur padding untuk elemen .container-fluid di dalam navbar */
+.container-fluid {
+  padding: 0; /* Menghapus padding agar navbar tidak terganggu */
+}
+
+/* Penyesuaian untuk navbar pada versi mobile */
+.custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
+  margin: 10px 10px;
+  color: #000000;
+  text-align: center;
+}
+
+.custom_nav-container.navbar-expand-lg .navbar-nav .nav-link::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -2px;
+  transform: translate(-50%, -50%);
+}
+
+/* Mengatur tampilan link */
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: initial;
+}
+
+/* Mengatur tampilan tombol */
+.btn,
+.btn:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+/* Mengatur tampilan user_option */
+.user_option {
+  display: flex;
+  align-items: center;
+}
+
+/* Mengatur tampilan tombol pencarian */
+.custom_nav-container .nav_search-btn {
+  background-size: 22px;
+  background-repeat: no-repeat;
+  background-position-y: 7px;
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  border: none;
+}
+
+/* Mengatur tampilan navbar-brand */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand span {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.custom_nav-container {
+  z-index: 99999;
+  padding: 15px 0;
+}
+
+.custom_nav-container .navbar-toggler {
+  outline: none;
+}
+
+.custom_nav-container .navbar-toggler .navbar-toggler-icon {
+  background-size: 55px;
+}
+/* end */
+
+/* type */
+.type-section {
+  position: relative;
+  background-color: #5F1313; /* Latar belakang merah */
+  padding: 40px 20px; /* Padding untuk section */
+  color: black; /* Warna teks hitam untuk kontras */
+  overflow: hidden;
+}
+
+.section-title {
+  font-size: 30px; /* Ukuran font 30px */
+  color: #AF912F; /* Warna gold */
+  font-family: 'PT Serif Caption', serif; /* Font PT Serif Caption */
+  margin-bottom: 50px; /* Jarak bawah judul dari card-container */
+  text-align: center; /* Memusatkan teks judul */
+  position: relative; /* Agar dapat diatur posisinya */
+  z-index: 2; /* Pastikan judul berada di atas overlay */
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('../images/batik2.jpg') no-repeat center center/cover; /* Ganti dengan path gambar Anda */
+  opacity: 0.08;
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  font-family: 'Red Hat Text', sans-serif; /* Font */
+}
+
+.card {
+  position: relative; /* Agar posisi absolute pada sold-tag berfungsi */
+  width: calc(25% - 20px); /* Lebar 25% dikurangi jarak antar card */
+  max-width: 290px; /* Lebar maksimum card */
+  background: white;
+  border-radius: 0 0 20px 20px; /* Radius sudut bawah card */
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Bayangan hitam dengan opacity 50% */
+  border: none;
+  margin: 0; /* Pastikan tidak ada margin */
+  padding: 0; /* Pastikan tidak ada padding */
+  margin-bottom: 40px;
+}
+
+.card-image {
+  height: 200px; /* Sesuaikan tinggi gambar pada card */
+  background-size: cover; /* Agar gambar menutupi seluruh area card-image */
+  background-position: center;
+  background-repeat: no-repeat; /* Mencegah pengulangan gambar */
+  margin: 0; /* Pastikan tidak ada margin */
+  padding: 0; /* Pastikan tidak ada padding */
+  z-index: 2; /* Pastikan gambar berada di depan tag SOLD */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Bayangan hitam dengan opacity 50% */
+}
+
+
+.card-content {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: black; /* Pastikan teks dalam card berwarna hitam */
+}
+
+.sold-tag {
+  position: absolute;
+  top: 250px; /* Jarak dari bagian atas card */
+  right: -15px; /* Jarak dari sisi kanan card */
+  background: #AF912F; /* Background merah dengan opacity */
+  color: white;
+  padding: 3px 20px; /* Padding horizontal dan vertikal */
+  transform: rotate(45deg);
+  transform-origin: top right;
+  font-size: 10px; /* Ukuran font */
+  font-weight: bold; /* Menjadikan teks bold */
+  z-index: 1; /* Pastikan tag berada di belakang gambar */
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 22.5px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.card-description {
+  color: black; /* Warna teks deskripsi hitam */
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+
+.card-price {
+  font-weight: bold;
+  font-size: 19px;
+  margin-bottom: 30px;
+}
+
+.price-currency {
+  font-size: 0.8em; /* Ukuran font lebih kecil dari teks harga */
+}
+
+.card-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  flex-direction: column; /* Agar gambar dan teks tersusun secara vertikal */
+}
+
+.card-image-item {
+  display: flex;
+  align-items: center; /* Ini akan menempatkan gambar dan teks di tengah secara vertikal */
+  justify-content: center; /* Ini akan menempatkan gambar dan teks di tengah secara horizontal */
+  gap: 10px; /* Jarak antara gambar dan teks */
+}
+
+
+.card-image-item img {
+  display: block;
+  margin: 0 auto; /* Gambar di tengah */
+}
+
+/* Ukuran gambar yang diatur secara individual */
+.image1 {
+  width: 25px; /* Ukuran image 1 */
+  height: 15px; /* Ukuran image 1 */
+
+}
+
+.image2 {
+  width: 25px; /* Ukuran image 2 */
+  height: 25px; /* Ukuran image 2 */
+}
+
+.image3 {
+  width: 15px; /* Ukuran image 3 */
+  height: 15px; /* Ukuran image 3 */
+}
+
+.card-image-item span {
+  color: black; /* Warna teks di samping gambar hitam */
+  display: inline-block;
+  margin-left: 10px; /* Jarak antara teks dengan gambar */
+  font-size: 12px; /* Ukuran font lebih kecil untuk teks */
+  font-weight: normal; /* Teks tidak bold */
+  margin-bottom: 20px;
+}
+
+.btn-more-info {
+  display: inline-block;
+  background-color: #5F1313;
+  color: white;
+  padding: 10px 20px; /* Atur padding sesuai kebutuhan */
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: normal; /* Ubah ke normal untuk teks tidak bold */
+  margin: 10px auto; /* Memusatkan tombol dengan margin otomatis */
+  width: 175px; /* Atur lebar tombol sesuai kebutuhan */
+  text-align: center; /* Untuk memastikan teks berada di tengah */
+  margin-top: 23px;
+}
+
+.btn-more-info:hover {
+  background-color: #5F1313; /* Tidak mengubah background */
+  color: #D3D3D3; /* Warna teks menjadi abu-abu */
+}
+/* end */
+
+
+  /* footer */
+.footer-section {
+  background: linear-gradient(to right, #222222 60%, #E0A75E 100%); /* Gradasi dari hitam (70% dari lebar) ke emas */
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.footer-left img {
+  max-width: 230px; /* Sesuaikan ukuran gambar */
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 140px;
+}
+
+.footer-center {
+  text-align: center;
+  flex-grow: 1;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.footer-text strong {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px; /* Sesuaikan ukuran teks bold */
+}
+
+.footer-text p {
+  margin-bottom: 20px;
+  margin-top: 50px; /* Kurangi margin-top agar ikon lebih mepet ke atas */
+}
+
+.footer-images {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px; /* Tambahkan margin-top negatif untuk mendekatkan ikon ke atas */
+}
+
+.footer-images img {
+  max-width: 50px; /* Sesuaikan ukuran gambar */
+}
+
+.footer-right {
+  text-align: right;
+  margin-right: 60px;
+}
+
+.footer-right p {
+  margin: 0;
+  font-size: 16px; /* Sesuaikan ukuran teks kanan */
+}
+
+/* end */
+
+/* navbar */
+.navbar {
+  background-color: white; /* Warna latar belakang navbar */
+  z-index: 1000; /* Pastikan navbar di atas elemen lain */
+  position: sticky; /* Tetap berada di posisi tetap saat di-scroll */
+  width: 100%; /* Lebar 100% dari viewport */
+  top: 0; /* Posisi di bagian atas viewport */
+  left: 0; /* Posisi di sisi kiri viewport */
+  padding: 15px 0; /* Padding atas dan bawah */
+  box-sizing: border-box; /* Termasuk padding dalam perhitungan lebar */
+}
+
+/* Tambahan untuk menghindari konten terpotong oleh navbar */
+.hero_area {
+  margin-top: 0px; /* Sesuaikan dengan tinggi navbar */
+}
+
+/* Menghapus padding pada container-fluid yang menyebabkan masalah */
+.header_section .container-fluid {
+  padding: 0; /* Menghapus padding agar navbar tidak terganggu */
+}
+
+/* Pastikan navbar-container sesuai dengan lebar layar */
+.header_section .nav_container {
+  margin: 0; /* Menghapus margin jika diperlukan */
+  width: 100%; /* Lebar 100% dari container */
+}
+
+/* Menyesuaikan navbar-link */
+.navbar-nav .nav-link {
+  color: rgb(0, 0, 0);
+}
+
+.navbar-brand img {
+  max-width: 80px;
+}
+
+/* Mengatur padding untuk elemen .container-fluid di dalam navbar */
+.container-fluid {
+  padding: 0; /* Menghapus padding agar navbar tidak terganggu */
+}
+
+/* Penyesuaian untuk navbar pada versi mobile */
+.custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
+  margin: 10px 10px;
+  color: #000000;
+  text-align: center;
+}
+
+.custom_nav-container.navbar-expand-lg .navbar-nav .nav-link::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -2px;
+  transform: translate(-50%, -50%);
+}
+
+/* Mengatur tampilan link */
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: initial;
+}
+
+/* Mengatur tampilan tombol */
+.btn,
+.btn:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+/* Mengatur tampilan user_option */
+.user_option {
+  display: flex;
+  align-items: center;
+}
+
+/* Mengatur tampilan tombol pencarian */
+.custom_nav-container .nav_search-btn {
+  background-size: 22px;
+  background-repeat: no-repeat;
+  background-position-y: 7px;
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  border: none;
+}
+
+/* Mengatur tampilan navbar-brand */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand span {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.custom_nav-container {
+  z-index: 99999;
+  padding: 15px 0;
+}
+
+.custom_nav-container .navbar-toggler {
+  outline: none;
+}
+
+.custom_nav-container .navbar-toggler .navbar-toggler-icon {
+  background-size: 55px;
+}
+/* end */
