@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\typeController;
+use App\Http\Controllers\newsController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,3 +20,4 @@ Route::get('/', function () {
 });
 
 Route::get('/type', [typeController::class, 'index']);
+Route::get('/news', [newsController::class, 'index']);

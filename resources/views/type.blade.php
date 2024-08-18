@@ -68,7 +68,7 @@
                   <a class="nav-link" href="portfolio.html"> Facilities </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html"> News </a>
+                  <a class="nav-link" href="/news"> News </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="contact.html">Contact</a>
@@ -85,7 +85,7 @@
   <section class="type-section">
     <div class="image-overlay"></div>
     <div class="content">
-      <h2 class="section-title">Type</h2> <!-- Tambahkan judul di sini -->
+      <h2 class="section-title">TYPE</h2> <!-- Tambahkan judul di sini -->
       <div class="card-container">
         <!-- Card 1 -->
         <div class="card">
