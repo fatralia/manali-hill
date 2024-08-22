@@ -55,10 +55,10 @@
                   <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="type"> Type </a>
+                  <a class="nav-link" href="/type"> Type </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="do.html"> Program </a>
+                  <a class="nav-link" href="/program"> Program </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="portfolio.html"> Siteplan </a>
