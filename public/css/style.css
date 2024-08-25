@@ -161,12 +161,10 @@ body {
 }
 
 .button-link:hover {
-  background-color: #8c7330; /* Warna saat hover */
+  background-color: #c9ae69; /* Warna yang lebih terang dari #5F1313 */
+  color: white; /* Pastikan warna teks tetap putih saat hover */
 }
 
-.button-link:hover {
-  background-color: #8c7330; /* Warna saat hover */
-}
 /* end */
 
 /* why choose us */
@@ -423,7 +421,7 @@ body {
 }
 
 .button:hover {
-  background-color: #5F1313;
+  background-color: #6b2727;
 }
 
 /* end */
@@ -471,7 +469,7 @@ body {
 }
 
 .program-button:hover {
-  background-color: #7F2020;
+  background-color: #6b2727;
 }
 
 /* end */

@@ -61,16 +61,16 @@
                   <a class="nav-link" href="/program"> Program </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html"> Siteplan </a>
+                  <a class="nav-link" href="/siteplan"> Siteplan </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html"> Facilities </a>
+                  <a class="nav-link" href="/facilities"> Facilities </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="/news"> News </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
+                  <a class="nav-link" href="/contact">Contact</a>
                 </li>
               </ul>
             </div>

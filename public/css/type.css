@@ -302,8 +302,8 @@ a:focus {
 }
 
 .btn-more-info:hover {
-  background-color: #5F1313; /* Tidak mengubah background */
-  color: #D3D3D3; /* Warna teks menjadi abu-abu */
+  background-color: #6b2727; /* Tidak mengubah background */
+  color: white; /* Pastikan warna teks tetap putih saat hover */
 }
 /* end */
 
