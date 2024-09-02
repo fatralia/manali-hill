@@ -1,0 +1,487 @@
+body {
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    background-color: #ffffff;
+      margin: 0;
+      padding: 0;
+  }
+
+  /* navbar */
+.navbar {
+  background-color: white; /* Warna latar belakang navbar */
+  z-index: 1000; /* Pastikan navbar di atas elemen lain */
+  position: sticky; /* Tetap berada di posisi tetap saat di-scroll */
+  width: 100%; /* Lebar 100% dari viewport */
+  top: 0; /* Posisi di bagian atas viewport */
+  left: 0; /* Posisi di sisi kiri viewport */
+  padding: 10px 0 !important; /* Mengurangi padding atas dan bawah */
+  box-sizing: border-box; /* Termasuk padding dalam perhitungan lebar */
+}
+
+/* Tambahan untuk menghindari konten terpotong oleh navbar */
+.hero_area {
+  margin-top: -2000px; /* Sesuaikan dengan tinggi navbar */
+}
+
+/* Menghapus padding pada container-fluid yang menyebabkan masalah */
+.header_section .container-fluid {
+  padding: 0; /* Menghapus padding agar navbar tidak terganggu */
+}
+
+/* Pastikan navbar-container sesuai dengan lebar layar */
+.header_section .nav_container {
+  margin: 0; /* Menghapus margin jika diperlukan */
+  width: 100%; /* Lebar 100% dari container */
+}
+
+/* Menyesuaikan navbar-link */
+.navbar-nav .nav-link {
+  color: rgb(0, 0, 0);
+}
+
+.navbar-brand img {
+  max-width: 80px;
+}
+
+/* Mengatur padding untuk elemen .container-fluid di dalam navbar */
+.container-fluid {
+  padding: 0; /* Menghapus padding agar navbar tidak terganggu */
+}
+
+/* Penyesuaian untuk navbar pada versi mobile */
+.custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
+  margin: 10px 10px;
+  color: #000000;
+  text-align: center;
+}
+
+.custom_nav-container.navbar-expand-lg .navbar-nav .nav-link::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -2px;
+  transform: translate(-50%, -50%);
+}
+
+/* Mengatur tampilan link */
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: initial;
+}
+
+/* Mengatur tampilan tombol */
+.btn,
+.btn:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+/* Mengatur tampilan user_option */
+.user_option {
+  display: flex;
+  align-items: center;
+}
+
+/* Mengatur tampilan tombol pencarian */
+.custom_nav-container .nav_search-btn {
+  background-size: 22px;
+  background-repeat: no-repeat;
+  background-position-y: 7px;
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  border: none;
+}
+
+/* Mengatur tampilan navbar-brand */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand span {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.custom_nav-container {
+  z-index: 99999;
+  padding: 15px 0;
+}
+
+.custom_nav-container .navbar-toggler {
+  outline: none;
+}
+
+.custom_nav-container .navbar-toggler .navbar-toggler-icon {
+  background-size: 55px;
+}
+/* end */
+
+/* Contact section */
+.contact-section {
+    background-color: #5F1313;
+    padding: 50px 20px;
+    margin-bottom: 200px; /* Jarak dari footer */
+    background-size: cover; /* Membuat background memenuhi area */
+    background-position: center; /* Menjaga background tetap terpusat */
+    position: relative; /* Pastikan posisi relatif untuk overlay jika diperlukan */
+}
+
+.contact-section > h1 {
+    font-family: 'PT Serif Caption', serif;
+    font-size: 30px;
+    color: #AF912F;
+    text-align: center;
+    margin-top: -800px; /* Jarak atas dari elemen di atasnya */
+    margin-bottom: 30px; /* Jarak dari elemen di bawahnya */
+    padding: 100000 30px; /* Padding samping jika diperlukan */
+}
+
+
+/* Contact container */
+.contact-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: #5F1313;
+    padding: 50px 20px;
+    margin: 40px 0; /* Jarak atas dan bawah */
+    position: relative;
+    box-sizing: border-box; /* Memastikan padding tidak mempengaruhi ukuran total elemen */
+}
+
+/* Contact left and right sections */
+.contact-left, .contact-right {
+    color: white;
+    font-family: 'Red Hat Text', sans-serif;
+    flex: 1;
+    max-width: 600px;
+    margin: 0 70px;
+}
+
+/* Contact form section */
+.contact-form-section {
+    background-color: #FFFAF2;
+    padding: 50px 20px;
+    text-align: center;
+    margin-top: 20px; /* Jarak dari elemen di atasnya */
+}
+
+.contact-left h2 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.contact-left p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.info-item img.maps-icon {
+    width: 20px; /* Sesuaikan ukuran untuk ikon peta */
+    height: 25px; /* Sesuaikan ukuran untuk ikon peta */
+    margin-right: 10px;
+}
+
+.info-item img.wa-icon {
+    width: 25px; /* Sesuaikan ukuran untuk ikon WA */
+    height: 25px; /* Sesuaikan ukuran untuk ikon WA */
+    margin-right: 10px;
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: flex-start; /* Mengatur ikon agar rata kiri */
+    margin-top: 20px;
+}
+
+.social-media-icons img {
+    width: 30px;
+    margin-right: 10px; /* Jarak antar ikon, sesuaikan sesuai kebutuhan */
+}
+
+/* Menghapus margin kanan pada ikon terakhir jika tidak diinginkan */
+.social-media-icons img:last-child {
+    margin-right: 0;
+}
+
+.map-container {
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.get-in-touch-title {
+    font-family: 'PT Serif Caption', serif;
+    font-size: 30px;
+    color: #5F1313;
+    margin-bottom: 30px !important; /* Atur jarak bawah sesuai kebutuhan */
+    margin-top: 0;
+}
+
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%; /* Memastikan form memenuhi lebar kontainer */
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 48%;
+    padding: 10px;
+    border: 1.5px solid #5F1313;
+    background-color: transparent;
+    color: #000;
+    font-family: 'Red Hat Text', sans-serif;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+}
+
+.submit-btn {
+    background-color: #5F1313;
+    color: white;
+    font-family: 'Red Hat Text', sans-serif;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    float: right;
+}
+
+.contact-section, .contact-form-section {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.contact-section > h1, .contact-form-section > h2 {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.contact-container, .contact-form-section {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.contact-form-section {
+    background-color: #FFFAF2;
+    padding: 50px 20px;
+    text-align: center;
+    margin-top: 0; /* Jarak dari elemen di atasnya */
+    margin-bottom: 0; /* Jarak dari footer */
+    display: flex; /* Menjadikan elemen flex container */
+    flex-direction: column; /* Mengatur elemen flex secara vertikal */
+    justify-content: center; /* Menyusun elemen di tengah secara vertikal */
+    align-items: center; /* Menyusun elemen di tengah secara horizontal */
+    position: relative; /* Mengatur posisi elemen anak */
+}
+
+/* end */
+
+/* footer */
+.footer-section {
+    background: linear-gradient(to right, #222222 60%, #E0A75E 100%); /* Gradasi dari hitam (70% dari lebar) ke emas */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .footer-left img {
+    max-width: 230px; /* Sesuaikan ukuran gambar */
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 140px;
+  }
+  
+  .footer-center {
+    text-align: center;
+    flex-grow: 1;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .footer-text strong {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px; /* Sesuaikan ukuran teks bold */
+  }
+  
+  .footer-text p {
+    margin-bottom: 20px;
+    margin-top: 50px; /* Kurangi margin-top agar ikon lebih mepet ke atas */
+  }
+  
+  .footer-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px; /* Tambahkan margin-top negatif untuk mendekatkan ikon ke atas */
+  }
+  
+  .footer-images img {
+    max-width: 50px; /* Sesuaikan ukuran gambar */
+  }
+  
+  .footer-right {
+    text-align: right;
+    margin-right: 60px;
+  }
+  
+  .footer-right p {
+    margin: 0;
+    font-size: 16px; /* Sesuaikan ukuran teks kanan */
+  }
+  
+  /* end */
+  
+  /* navbar */
+  .navbar {
+    background-color: white; /* Warna latar belakang navbar */
+    z-index: 1000; /* Pastikan navbar di atas elemen lain */
+    position: sticky; /* Tetap berada di posisi tetap saat di-scroll */
+    width: 100%; /* Lebar 100% dari viewport */
+    top: 0; /* Posisi di bagian atas viewport */
+    left: 0; /* Posisi di sisi kiri viewport */
+    padding: 15px 0; /* Padding atas dan bawah */
+    box-sizing: border-box; /* Termasuk padding dalam perhitungan lebar */
+  }
+  
+  /* Tambahan untuk menghindari konten terpotong oleh navbar */
+  .hero_area {
+    margin-top: 0px; /* Sesuaikan dengan tinggi navbar */
+  }
+  
+  /* Menghapus padding pada container-fluid yang menyebabkan masalah */
+  .header_section .container-fluid {
+    padding: 0; /* Menghapus padding agar navbar tidak terganggu */
+  }
+  
+  /* Pastikan navbar-container sesuai dengan lebar layar */
+  .header_section .nav_container {
+    margin: 0; /* Menghapus margin jika diperlukan */
+    width: 100%; /* Lebar 100% dari container */
+  }
+  
+  /* Menyesuaikan navbar-link */
+  .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+  }
+  
+  .navbar-brand img {
+    max-width: 80px;
+  }
+  
+  /* Mengatur padding untuk elemen .container-fluid di dalam navbar */
+  .container-fluid {
+    padding: 0; /* Menghapus padding agar navbar tidak terganggu */
+  }
+  
+  /* Penyesuaian untuk navbar pada versi mobile */
+  .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
+    margin: 10px 10px;
+    color: #000000;
+    text-align: center;
+  }
+  
+  .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -2px;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Mengatur tampilan link */
+  a,
+  a:hover,
+  a:focus {
+    text-decoration: none;
+  }
+  
+  a:hover,
+  a:focus {
+    color: initial;
+  }
+  
+  /* Mengatur tampilan tombol */
+  .btn,
+  .btn:focus {
+    outline: none !important;
+    box-shadow: none;
+  }
+  
+  /* Mengatur tampilan user_option */
+  .user_option {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Mengatur tampilan tombol pencarian */
+  .custom_nav-container .nav_search-btn {
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position-y: 7px;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    border: none;
+  }
+  
+  /* Mengatur tampilan navbar-brand */
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .navbar-brand span {
+    font-size: 24px;
+    color: #ffffff;
+  }
+  
+  .custom_nav-container {
+    z-index: 99999;
+    padding: 15px 0;
+  }
+  
+  .custom_nav-container .navbar-toggler {
+    outline: none;
+  }
+  
+  .custom_nav-container .navbar-toggler .navbar-toggler-icon {
+    background-size: 55px;
+  }
+  /* end */

@@ -6,6 +6,7 @@ use App\Http\Controllers\newsController;
 use App\Http\Controllers\programController;
 use App\Http\Controllers\facilitiesController;
 use App\Http\Controllers\siteplanController;
+use App\Http\Controllers\contactController;
 
 
 
@@ -30,4 +31,5 @@ Route::get('/news', [newsController::class, 'index']);
 Route::get('/program', [programController::class, 'index']);
 Route::get('/facilities', [facilitiesController::class, 'index']);
 Route::get('/siteplan', [siteplanController::class, 'index']);
+Route::get('/contact', [contactController::class, 'index']);
 
