@@ -98,10 +98,18 @@
               </div>
           </div>
           <div class="social-media-icons">
+            <a href="https://www.youtube.com/@ManaliHillResidence" target="_blank">
               <img src="../images/yt.png" alt="social">
+            </a>
+            <a href="https://www.instagram.com/manalihillresidence" target="_blank">
               <img src="../images/ig.png" alt="social">
+            </a>
+            <a href="https://www.tiktok.com/@manalihillresidence" target="_blank">
               <img src="../images/tt.png" alt="social">
+            </a>
+            <a href="https://www.facebook.com/ManaliHillMalang" target="_blank">
               <img src="../images/fb1.png" alt="social">
+            </a>
           </div>
       </section>
       <section class="contact-right">
@@ -119,15 +127,12 @@
       <h2 class="get-in-touch-title">GET IN TOUCH</h2>
       <form action="your-backend-url" method="POST">
           <div class="form-row">
-              <input type="text" name="first_name" placeholder="First Name">
-              <input type="email" name="email_address" placeholder="Email Address">
+              <input type="text" name="first_name" placeholder="Nama">
+              <input type="email" name="email_address" placeholder="Domisili">
           </div>
           <div class="form-row">
-              <input type="text" name="last_name" placeholder="Last Name">
-              <input type="text" name="phone_number" placeholder="Phone Number">
-          </div>
-          <div class="form-row">
-              <textarea name="message" placeholder="Message"></textarea>
+              <input type="text" name="last_name" placeholder="Budget">
+              <input type="text" name="phone_number" placeholder="No. Telepon">
           </div>
           <button type="submit" class="submit-btn">Submit</button>
       </form>
@@ -149,12 +154,22 @@
             Jawa Timur 65152</p>
       </div>
       <div class="footer-images">
-          <img src="images/wa.png" alt="Image 1">
-          <img src="images/fb1.png" alt="Image 2">
-          <img src="images/ig.png" alt="Image 3">
-          <img src="images/yt.png" alt="Image 4">
-          <img src="images/tt.png" alt="Image 5">
-      </div>
+        <a href="https://wa.me/+62895397113280" target="_blank">
+            <img src="images/wa.png" alt="Image 1">
+        </a>
+        <a href="https://www.facebook.com/ManaliHillMalang" target="_blank">
+            <img src="images/fb1.png" alt="Image 2">
+        </a>
+        <a href="https://www.instagram.com/manalihillresidence" target="_blank">
+            <img src="images/ig.png" alt="Image 3">
+        </a>
+        <a href="https://www.youtube.com/@ManaliHillResidence" target="_blank">
+            <img src="images/yt.png" alt="Image 4">
+        </a>
+        <a href="https://www.tiktok.com/@manalihillresidence" target="_blank">
+            <img src="images/tt.png" alt="Image 5">
+        </a>
+    </div>
   </div>
   <div class="footer-right">
       <p>Manali Hill | Powered by Sinarindo Digital

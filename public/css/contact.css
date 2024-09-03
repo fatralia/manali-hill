@@ -109,6 +109,7 @@ a:focus {
 .navbar-brand span {
   font-size: 24px;
   color: #ffffff;
+  margin-left: 40px;
 }
 
 .custom_nav-container {
@@ -211,9 +212,16 @@ a:focus {
     margin-top: 20px;
 }
 
+.social-media-icons a {
+  margin-right: 8px; /* Sesuaikan nilai margin sesuai keinginan */
+}
+
+.social-media-icons a:last-child {
+  margin-right: 0; /* Menghilangkan margin pada ikon terakhir */
+}
+
 .social-media-icons img {
     width: 30px;
-    margin-right: 10px; /* Jarak antar ikon, sesuaikan sesuai kebutuhan */
 }
 
 /* Menghapus margin kanan pada ikon terakhir jika tidak diinginkan */
@@ -396,17 +404,22 @@ textarea {
   }
   
   /* Menyesuaikan navbar-link */
-  .navbar-nav .nav-link {
+  .nav-link {
     color: rgb(0, 0, 0);
   }
-  
-  .navbar-brand img {
-    max-width: 80px;
+
+  .navbar-nav {
+    display: flex;
+    margin-right: 25px; /* Menambahkan jarak dari sisi kanan layar */
   }
   
-  /* Mengatur padding untuk elemen .container-fluid di dalam navbar */
+  .navbar-brand {
+    margin-right: auto; /* Menyelaraskan logo ke kiri */
+  }
+  
   .container-fluid {
-    padding: 0; /* Menghapus padding agar navbar tidak terganggu */
+    max-width: 1700px; /* Sesuaikan dengan lebar yang diinginkan */
+    margin: 0 auto; /* Menyelaraskan container ke tengah layar */
   }
   
   /* Penyesuaian untuk navbar pada versi mobile */

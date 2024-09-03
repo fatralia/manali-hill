@@ -228,12 +228,22 @@
             Jawa Timur 65152</p>
       </div>
       <div class="footer-images">
-          <img src="images/wa.png" alt="Image 1">
-          <img src="images/fb1.png" alt="Image 2">
-          <img src="images/ig.png" alt="Image 3">
-          <img src="images/yt.png" alt="Image 4">
-          <img src="images/tt.png" alt="Image 5">
-      </div>
+        <a href="https://wa.me/+62895397113280" target="_blank">
+            <img src="images/wa.png" alt="Image 1">
+        </a>
+        <a href="https://www.facebook.com/ManaliHillMalang" target="_blank">
+            <img src="images/fb1.png" alt="Image 2">
+        </a>
+        <a href="https://www.instagram.com/manalihillresidence" target="_blank">
+            <img src="images/ig.png" alt="Image 3">
+        </a>
+        <a href="https://www.youtube.com/@ManaliHillResidence" target="_blank">
+            <img src="images/yt.png" alt="Image 4">
+        </a>
+        <a href="https://www.tiktok.com/@manalihillresidence" target="_blank">
+            <img src="images/tt.png" alt="Image 5">
+        </a>
+    </div>
   </div>
   <div class="footer-right">
       <p>Manali Hill | Powered by Sinarindo Digital

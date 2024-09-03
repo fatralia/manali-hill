@@ -107,7 +107,7 @@
         </p>
       </div>
       <div class="center-button">
-        <a href="type.html" class="button-link">Lihat Type</a>
+        <a href="/type" class="button-link">Lihat Type</a>
       </div>
   </section>
     
@@ -236,7 +236,7 @@
             </div>
             <p class="luas">Luas Tanah : 60m² (6 x 10)</p>
             <p class="luas1">Luas Bangunan : 95m²</p>
-            <button class="button">Lihat Tipe Lain</button>
+            <a href = "/type"><button class="button">Lihat Tipe Lain</button></a>
         </div>
     </div>
 </section>
@@ -259,7 +259,7 @@
         <img src="images/program2.jpeg" alt="Program 4">
       </div>
     </div>
-    <button class="program-button">Lihat Program</button>
+    <a href = "/program"><button class="program-button">Lihat Program</button></a>
   </section>
   
   {{-- end --}}
@@ -394,12 +394,22 @@ showSlide(currentIndex);
               Jawa Timur 65152</p>
         </div>
         <div class="footer-images">
-            <img src="images/wa.png" alt="Image 1">
-            <img src="images/fb1.png" alt="Image 2">
-            <img src="images/ig.png" alt="Image 3">
-            <img src="images/yt.png" alt="Image 4">
-            <img src="images/tt.png" alt="Image 5">
-        </div>
+          <a href="https://wa.me/+62895397113280" target="_blank">
+              <img src="images/wa.png" alt="Image 1">
+          </a>
+          <a href="https://www.facebook.com/ManaliHillMalang" target="_blank">
+              <img src="images/fb1.png" alt="Image 2">
+          </a>
+          <a href="https://www.instagram.com/manalihillresidence" target="_blank">
+              <img src="images/ig.png" alt="Image 3">
+          </a>
+          <a href="https://www.youtube.com/@ManaliHillResidence" target="_blank">
+              <img src="images/yt.png" alt="Image 4">
+          </a>
+          <a href="https://www.tiktok.com/@manalihillresidence" target="_blank">
+              <img src="images/tt.png" alt="Image 5">
+          </a>
+      </div>
     </div>
     <div class="footer-right">
         <p>Manali Hill | Powered by Sinarindo Digital

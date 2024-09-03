@@ -35,19 +35,23 @@ body {
 }
 
 /* Menyesuaikan navbar-link */
-.navbar-nav .nav-link {
+.nav-link {
   color: rgb(0, 0, 0);
 }
 
-.navbar-brand img {
-  max-width: 80px;
+.navbar-nav {
+  display: flex;
+  margin-right: 25px; /* Menambahkan jarak dari sisi kanan layar */
 }
 
-/* Mengatur padding untuk elemen .container-fluid di dalam navbar */
+.navbar-brand {
+  margin-right: auto; /* Menyelaraskan logo ke kiri */
+}
+
 .container-fluid {
-  padding: 0; /* Menghapus padding agar navbar tidak terganggu */
+  max-width: 1700px; /* Sesuaikan dengan lebar yang diinginkan */
+  margin: 0 auto; /* Menyelaraskan container ke tengah layar */
 }
-
 /* Penyesuaian untuk navbar pada versi mobile */
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
   margin: 10px 10px;
@@ -471,6 +475,7 @@ a:focus {
 .navbar-brand span {
   font-size: 24px;
   color: #ffffff;
+  margin-left: 40px;
 }
 
 .custom_nav-container {
