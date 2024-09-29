@@ -88,7 +88,7 @@
           <div class="text-content">
               <h3 class="text-title">Lapangan Tenis Eksklusif</h3>
               <p class="text-paragraph">Investasi di Manali Hill untuk peluang keuntungan lebih <br>besar. Lapangan tenis premium kami menarik mahasiswa <br>yang mencari fasilitas berkualitas dan pelatihan profesional.</p>
-              <a href="https://wa.me/62895397113280" class="survey-btn">
+              <a href="https://wa.me/62811122997" class="survey-btn">
                   <img src="../images/wa1.png" alt="WhatsApp Icon" class="whatsapp-icon"> Survey Sekarang
               </a>
           </div>
@@ -101,7 +101,7 @@
           <div class="text-content">
               <h3 class="text-title">Basket Court Premium</h3>
               <p class="text-paragraph">Investasi di Manali Hill dan nikmati potensi return <br>maksimal. Lapangan basket premier kami menarik minat <br>mahasiswa, meningkatkan daya tarik kawasan dan <br>pendapatan Anda.</p>
-              <a href="https://wa.me/62895397113280" class="survey-btn">
+              <a href="https://wa.me/62811122997" class="survey-btn">
                   <img src="../images/wa1.png" alt="WhatsApp Icon" class="whatsapp-icon"> Survey Sekarang
               </a>
           </div>
@@ -111,12 +111,12 @@
   
   <section class="facilities_3">
       <div class="content-wrapper">
-          <img src="../images/pool.jpg" alt="Landscape Image 3" class="landscape-image">
+          <img src="../images/renang.jpg" alt="Landscape Image 3" class="landscape-image">
           <div class="text-content">
               <h3 class="text-title">Exclusive Pool</h3>
               <p class="text-paragraph">Tingkatkan nilai investasi Anda di Manali Hill dengan fasilitas <br>kolam renang premium!<br>
                 Mahasiswa akan tertarik pada gaya hidup sehat dan aktif yang <br>ditawarkan, membuat kawasan lebih diminati dan meningkatkan <br>potensi pendapatan Anda.</p>
-              <a href="https://wa.me/62895397113280" class="survey-btn">
+              <a href="https://wa.me/62811122997" class="survey-btn">
                   <img src="../images/wa1.png" alt="WhatsApp Icon" class="whatsapp-icon"> Survey Sekarang
               </a>
           </div>
@@ -129,7 +129,7 @@
           <div class="text-content">
               <h3 class="text-title">Premium Gym</h3>
               <p class="text-paragraph">Maksimalkan investasi Anda di Manali Hill dengan fasilitas gym <br>premium! Mahasiswa yang mengutamakan kesehatan dan <br>kebugaran akan tertarik pada peralatan canggih dan <br>lingkungan yang mendukung, menjadikan properti ini <br>lebih diminati.</p>
-              <a href="https://wa.me/62895397113280" class="survey-btn">
+              <a href="https://wa.me/62811122997" class="survey-btn">
                   <img src="../images/wa1.png" alt="WhatsApp Icon" class="whatsapp-icon"> Survey Sekarang
               </a>
           </div>
@@ -151,7 +151,7 @@
             Jawa Timur 65152</p>
       </div>
       <div class="footer-images">
-        <a href="https://wa.me/+62895397113280" target="_blank">
+        <a href="https://wa.me/62811122997" target="_blank">
             <img src="images/wa.png" alt="Image 1">
         </a>
         <a href="https://www.facebook.com/ManaliHillMalang" target="_blank">

@@ -208,14 +208,14 @@
   {{-- rukost --}}
   <section class="ruko">
     <div class="content">
-        <img src="images/rukost.png" alt="Main Image" class="main-image">
+        <img src="images/8 kamar.png" alt="Main Image" class="main-image">
         <div class="text-content">
           <h1 class="tipe">Tipe 95</h1>
           <h2 class="rukost">RUKOST</h2>
             <div class="image-text-group">
                 <div class="image-text">
                     <img src="images/kasur.png" alt="Image 1">
-                    <p>4</p>
+                    <p>8</p>
                 </div>
                 <div class="image-text">
                     <img src="images/dapur.png" alt="Image 2">
@@ -223,16 +223,16 @@
                 </div>
                 <div class="image-text">
                     <img src="images/bath.png" alt="Image 3">
-                    <p>4</p>
+                    <p>8</p>
                 </div>
                 <div class="image-text">
-                    <img src="images/garasi.png" alt="Image 4">
-                    <p>1</p>
+                    <img src="images/motor.png" alt="Image 4">
+                    <p>8</p>
                 </div>
-                <div class="image-text">
-                    <img src="images/sofa.png" alt="Image 5">
-                    <p>1</p>
-                </div>
+                <div class="image-text free-perabot">
+                  <img src="images/sofa.png" alt="Image 5">
+                  <p>Free Perabot Tiap Kamar</p>
+              </div>              
             </div>
             <p class="luas">Luas Tanah : 60m² (6 x 10)</p>
             <p class="luas1">Luas Bangunan : 95m²</p>
@@ -371,14 +371,17 @@ showSlide(currentIndex);
   {{-- end --}}
 
   {{-- youtube --}}
-    <section class="youtube-section">
-        <div class="youtube-container">
-            <iframe src="https://www.youtube.com/embed/9uYzLMZJvgE" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen></iframe>
-        </div>
-    </section>
+  <section class="youtube-section">
+    <div class="youtube-container">
+        <iframe 
+            src="https://www.youtube.com/embed/bDG3XDx-2_U?si=F1CK-jYuBnJv4NA-" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </div>
+</section>
+
   {{-- end --}}
 
   {{-- footer --}}
@@ -394,7 +397,7 @@ showSlide(currentIndex);
               Jawa Timur 65152</p>
         </div>
         <div class="footer-images">
-          <a href="https://wa.me/+62895397113280" target="_blank">
+          <a href="https://wa.me/62895397113280" target="_blank">
               <img src="images/wa.png" alt="Image 1">
           </a>
           <a href="https://www.facebook.com/ManaliHillMalang" target="_blank">

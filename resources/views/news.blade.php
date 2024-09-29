@@ -100,7 +100,7 @@
                         menjadi angin segar untuk wilayah Malang <br>
                         hingga memicu geliat ekonomi dan iklim investasi <br>
                         properti di kawasan</p>
-                      <a href="#" class="btn-more-info">Selengkapnya</a>
+                        <a href="https://wa.me/62811122997" class="btn-more-info">Selengkapnya</a>
                       <hr class="card-divider">
                       <p class="additional-text">March 28, 2023  No Comments</p>
                   </div>
@@ -119,7 +119,7 @@
                         yang strategis, misalnya dekat perkantoran, pusat<br>
                         hiburan, atau dekat kampus. Jika membangun<br>
                         rumah kos</p>
-                      <a href="#" class="btn-more-info">Selengkapnya</a>
+                      <a href="https://wa.me/62811122997" class="btn-more-info">Selengkapnya</a>
                       <hr class="card-divider">
                       <p class="additional-text">March 28, 2023  No Comments</p>
                   </div>
@@ -135,7 +135,7 @@
                         memiliki banyak tempat wisata, mulai dari wisata<br>
                         alam, wisata buatan, spot selfie, hingga <BR>wahana bermain. Manali Hill merupakan salah <BR>satu
                         perumahan yang dekat dengan <BR>beberapa destinasi liburan <BR>di Kota Malang.</p>
-                      <a href="#" class="btn-more-info">Selengkapnya</a>
+                          <a href="https://wa.me/62811122997" class="btn-more-info">Selengkapnya</a>
                       <hr class="card-divider">
                       <p class="additional-text">March 28, 2023  No Comments</p>
                   </div>
@@ -152,7 +152,7 @@
                         menggunakan konsep cluster, perumahan Manali<br>
                         Hill sendiri memiliki ciri khas sebagai perumahan<br>
                         cluster seperti Baca juga : <BR>Alasan Orang Mencari Rumah Hunian <BR>atau Investasi di Manali</p>
-                      <a href="#" class="btn-more-info">Selengkapnya</a>
+                          <a href="https://wa.me/62811122997" class="btn-more-info">Selengkapnya</a>
                       <hr class="card-divider">
                       <p class="additional-text">March 26, 2023  No Comments</p>
                   </div>
@@ -170,7 +170,7 @@
                         variasi mengenai gaya hidup. Salah satunya<br>
                         kuliner, sebagai aspek pokok yang tidak terlepas<br>
                         dari perut anak kos. Malang memang</p>
-                      <a href="#" class="btn-more-info">Selengkapnya</a>
+                        <a href="https://wa.me/62811122997" class="btn-more-info">Selengkapnya</a>
                       <hr class="card-divider">
                       <p class="additional-text">March 27, 2023   No Comments</p>
                   </div>
@@ -188,7 +188,7 @@
                         rumah tidak terlalu kecil, namun juga tidak terlalu<br>
                         besar. Singkatnya, rumah type 50/60 artinya<br>
                         rumah ideal untuk hunian keluarga.</p>
-                      <a href="#" class="btn-more-info">Selengkapnya</a>
+                        <a href="https://wa.me/62811122997" class="btn-more-info">Selengkapnya</a>
                       <hr class="card-divider">
                       <p class="additional-text">March 28, 2023  No Comments</p>
                   </div>
@@ -228,7 +228,7 @@
             Jawa Timur 65152</p>
       </div>
       <div class="footer-images">
-        <a href="https://wa.me/+62895397113280" target="_blank">
+        <a href="https://wa.me/62811122997" target="_blank">
             <img src="images/wa.png" alt="Image 1">
         </a>
         <a href="https://www.facebook.com/ManaliHillMalang" target="_blank">

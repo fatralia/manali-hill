@@ -94,7 +94,7 @@
               </div>
               <div class="info-item">
                   <img src="../images/wa1.png" alt="wa" class="wa-icon">
-                  <span>081 1122 997</span>
+                  <span>+62 811-122-997</span>
               </div>
           </div>
           <div class="social-media-icons">
@@ -154,7 +154,7 @@
             Jawa Timur 65152</p>
       </div>
       <div class="footer-images">
-        <a href="https://wa.me/+62895397113280" target="_blank">
+        <a href="https://wa.me/62811122997" target="_blank">
             <img src="images/wa.png" alt="Image 1">
         </a>
         <a href="https://www.facebook.com/ManaliHillMalang" target="_blank">

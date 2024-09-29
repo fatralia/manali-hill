@@ -127,38 +127,46 @@ a:focus {
 
 /* siteplan */
 .siteplan-section {
-    position: relative;
-    background-color: #f5f5dc; /* Warna cream */
-    text-align: center;
-    padding: 50px 20px;
+  position: relative;
+  background-color: #f5f5dc; /* Warna cream */
+  text-align: center;
+  padding: 50px 20px;
+  overflow: hidden; /* Menghindari elemen meluap */
 }
 
 .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('../images/batik2.jpg');
-    opacity: 0.1;
-    z-index: 1; /* Overlay berada di atas background */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/batik2.jpg');
+  opacity: 0.1;
+  z-index: 1; /* Overlay berada di atas background */
+  pointer-events: none; /* Agar overlay tidak mengganggu interaksi lainnya */
 }
 
 .siteplan-title {
-    font-size: 30px;
-    color: #5F1313; /* Warna merah */
-    font-family: 'PT Serif Caption', serif;
-    position: relative;
-    z-index: 2; /* Teks berada di atas overlay */
-    margin-bottom: 50px;
+  font-size: 30px;
+  color: #5F1313; /* Warna merah */
+  font-family: 'PT Serif Caption', serif;
+  position: relative;
+  z-index: 2; /* Teks berada di atas overlay */
+  margin-bottom: 50px;
 }
 
 .siteplan-image {
-    border-radius: 10px;
-    position: relative;
-    z-index: 2; /* Gambar berada di atas overlay */
-    max-width: 90%;
-    height: auto;
+  border-radius: 10px;
+  position: relative;
+  z-index: 2; /* Gambar berada di atas overlay */
+  max-width: 90%;
+  height: auto;
+  background-color: transparent; /* Pastikan tidak ada background putih */
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+  object-fit: cover; /* Memastikan gambar menutupi area tanpa mendistorsi */
+  object-position: center;
 }
 
 /* end */

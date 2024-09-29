@@ -115,8 +115,8 @@
                 <span>45</span>
               </div>
             </div>
-            <a href="#" class="btn-more-info">Selengkapnya</a>
-          </div>
+            <a href="https://wa.me/62811122997" class="btn-more-info">Selengkapnya</a>
+            </div>            
         </div>
         <!-- Card 2 -->
         <div class="card">
@@ -146,7 +146,7 @@
                 <span>45</span>
               </div>
             </div>
-            <a href="#" class="btn-more-info">Selengkapnya</a>
+            <a href="https://wa.me/62811122997" class="btn-more-info">Selengkapnya</a>
           </div>
         </div>
         <!-- Card 3 -->
@@ -177,7 +177,7 @@
                 <span>60</span>
               </div>
             </div>
-            <a href="#" class="btn-more-info">Selengkapnya</a>
+            <a href="https://wa.me/62811122997" class="btn-more-info">Selengkapnya</a>
           </div>
         </div>
         <!-- Card 4 -->
@@ -208,7 +208,7 @@
                 <span>67</span>
               </div>
             </div>
-            <a href="#" class="btn-more-info">Selengkapnya</a>
+            <a href="https://wa.me/62811122997" class="btn-more-info">Selengkapnya</a>
           </div>
         </div>
         <!-- Card 5 -->
@@ -239,7 +239,7 @@
                 <span>67</span>
               </div>
             </div>
-            <a href="#" class="btn-more-info">Selengkapnya</a>
+            <a href="https://wa.me/62811122997" class="btn-more-info">Selengkapnya</a>
           </div>
         </div>
         <!-- Card 6 -->
@@ -271,7 +271,7 @@
                 <span>120</span>
               </div>
             </div>
-            <a href="#" class="btn-more-info">Selengkapnya</a>
+            <a href="https://wa.me/62811122997" class="btn-more-info">Selengkapnya</a>
           </div>
         </div>
         <!-- Card 7 -->
@@ -303,7 +303,7 @@
                 <span>193</span>
               </div>
             </div>
-            <a href="#" class="btn-more-info">Selengkapnya</a>
+            <a href="https://wa.me/62811122997" class="btn-more-info">Selengkapnya</a>
           </div>
         </div>
       </div>
@@ -324,7 +324,7 @@
             Jawa Timur 65152</p>
       </div>
       <div class="footer-images">
-        <a href="https://wa.me/+62895397113280" target="_blank">
+        <a href="https://wa.me/62811122997" target="_blank">
             <img src="images/wa.png" alt="Image 1">
         </a>
         <a href="https://www.facebook.com/ManaliHillMalang" target="_blank">

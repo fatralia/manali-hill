@@ -80,14 +80,14 @@
     </header>
     <!-- end header section -->
 
-    {{-- siteplan --}}
-    <section class="siteplan-section">
-        <div class="overlay"></div>
-        <h2 class="siteplan-title">SITEPLAN</h2>
-        <img src="../images/siteplan.jpg" alt="Siteplan" class="siteplan-image">
-    </section>
-    
-    {{-- end --}}
+{{-- siteplan --}}
+<section class="siteplan-section">
+  <div class="overlay"></div>
+  <h2 class="siteplan-title">SITEPLAN</h2>
+  <img src="../images/siteplan.jpeg" alt="Siteplan" class="siteplan-image">
+</section>
+{{-- end --}}
+
 
     {{-- footer --}}
 <footer class="footer-section">
@@ -102,7 +102,7 @@
               Jawa Timur 65152</p>
         </div>
         <div class="footer-images">
-          <a href="https://wa.me/+62895397113280" target="_blank">
+          <a href="https://wa.me/62811122997" target="_blank">
               <img src="images/wa.png" alt="Image 1">
           </a>
           <a href="https://www.facebook.com/ManaliHillMalang" target="_blank">

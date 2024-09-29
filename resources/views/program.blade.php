@@ -160,7 +160,7 @@
               Jawa Timur 65152</p>
         </div>
         <div class="footer-images">
-          <a href="https://wa.me/+62895397113280" target="_blank">
+          <a href="https://wa.me/62811122997" target="_blank">
               <img src="images/wa.png" alt="Image 1">
           </a>
           <a href="https://www.facebook.com/ManaliHillMalang" target="_blank">
