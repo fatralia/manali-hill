@@ -125,6 +125,36 @@ a:focus {
 .custom_nav-container .navbar-toggler .navbar-toggler-icon {
   background-size: 55px;
 }
+
+.hubungi-wa {
+  position: fixed;
+  top: 100px; /* Sesuaikan agar posisinya tepat di bawah navbar */
+  right: 50px; /* Jarak dari sisi kanan layar */
+  left: auto; /* Pastikan tidak ada pengaturan margin kiri */
+  color: #004d00;
+  font-family: 'Red Hat Text', sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 1000; /* Agar tombol berada di depan elemen lain */
+  background-color: #ffffff; /* Warna latar belakang hijau tua */
+  padding: 10px 15px; /* Memberikan padding di dalam tombol */
+  border-radius: 5px; /* Memberikan sudut yang melengkung pada tombol */
+  transition: background-color 0.3s; /* Efek transisi saat hover */
+}
+
+.hubungi-wa:hover {
+  color: #004d00; /* Ubah warna saat di-hover */
+  background-color: #f0f0f0; /* Ubah warna latar belakang saat hover */
+}
+
+.whatsapp-logo {
+  width: 25px; /* Sesuaikan ukuran logo */
+  height: 25px; /* Sesuaikan ukuran logo */
+  margin-right: 5px; /* Jarak antara logo dan teks */
+  vertical-align: middle; /* Menyelaraskan logo secara vertikal dengan teks */
+  transform: translateY(-2px); /* Menggeser logo sedikit ke atas atau bawah sesuai kebutuhan */
+}
 /* end */
 
 /* program */

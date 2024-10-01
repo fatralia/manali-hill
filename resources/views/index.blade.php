@@ -78,6 +78,10 @@
           </div>
         </nav>
       </div>
+      <a href="https://wa.me/62811122997" class="hubungi-wa">
+        <img src="../images/wa2.png" alt="WhatsApp Logo" class="whatsapp-logo">
+        HUBUNGI WA
+    </a>
     </header>
     <!-- end header section -->
     
@@ -397,7 +401,7 @@ showSlide(currentIndex);
               Jawa Timur 65152</p>
         </div>
         <div class="footer-images">
-          <a href="https://wa.me/62895397113280" target="_blank">
+          <a href="https://wa.me/62811122997" target="_blank">
               <img src="images/wa.png" alt="Image 1">
           </a>
           <a href="https://www.facebook.com/ManaliHillMalang" target="_blank">

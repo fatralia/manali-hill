@@ -78,6 +78,10 @@
           </div>
         </nav>
       </div>
+      <a href="https://wa.me/62811122997" class="hubungi-wa">
+        <img src="../images/wa2.png" alt="WhatsApp Logo" class="whatsapp-logo">
+        HUBUNGI WA
+    </a>
     </header>
     <!-- end header section -->
 
@@ -89,30 +93,29 @@
       <div class="card-container">
         <!-- Card 1 -->
         <div class="card">
-          <div class="card-image" style="background-image: url('../images/type1.jpg');"></div>
+          <div class="card-image" style="background-image: url('../images/4.jpg');"></div>
           <div class="card-content">
-            <div class="sold-tag">SOLD OUT</div>
-            <h3 class="card-title">Green Villa</h3>
-            <p class="card-description">Green Villa merupakan hunian modern <br>
-              dua lantai dari cluster terbaru Green <br>
-              Stone City. Dibangun diatas tanah Seluas <br>
-              60m dengan lantai terbangun seluas 45m. <br>
-              Memiliki 2 kamar tidur dan 1 kamar <br>
-              mandi yang masing-masing terletak pada <br>
-              lantai atas dan lantai bawah bangunan.</p>
-              <p class="card-price"><span class="price-currency">IDR</span> 399.500.000/ Unit</p>
+            {{-- <div class="sold-tag">SOLD OUT</div> --}}
+            <h3 class="card-title">Kost Premium 4 </h3>
+            <p class="card-description">Tipe Kost Premium 4 kamar memberikan anda <br>
+              kesempatan untuk merasakan pendapatan pasif hingga 10jt/bulan,didukung dengan fasilitas 
+              yang lengkap, dibangun diatas tanah seluas 60m² 
+              dan dengan bangunan seluas 67m². 
+              Serta sudah dilengkapi dengan 
+              4 kamar mandi dalam.
+              <p class="card-price"><span class="price-currency">IDR</span> 744.000.000/ Unit</p>
             <div class="card-images">
               <div class="card-image-item">
                 <img src="../images/kasur.png" alt="Image 1" class="image1">
-                <span>2</span>
+                <span>4</span>
               </div>
               <div class="card-image-item">
                 <img src="../images/bath.png" alt="Image 2" class="image2">
-                <span>1</span>
+                <span>4</span>
               </div>
               <div class="card-image-item">
                 <img src="../images/luas.png" alt="Image 3" class="image3">
-                <span>45</span>
+                <span>67m²</span>
               </div>
             </div>
             <a href="https://wa.me/62811122997" class="btn-more-info">Selengkapnya</a>
@@ -120,30 +123,28 @@
         </div>
         <!-- Card 2 -->
         <div class="card">
-          <div class="card-image" style="background-image: url('../images/type2.jpeg');"></div>
+          <div class="card-image" style="background-image: url('../images/6.jpg');"></div>
           <div class="card-content">
-            <div class="sold-tag">SOLD OUT</div>
-            <h3 class="card-title">Legian</h3>
-            <p class="card-description">Villa Legian merupakan satu satunya <br>
-              rumah villa 2 lantai modern di Kota <br>
-              Malang yang mengusung konsep growing <br>
-              house (rumah tumbuh). Lahan cukup luas <br>
-              yang bisa digunakan sebagai kolam <br>
-              renang, kolam ikan, area barbeque, area <br>
-              bermain anak, gazebo, ataupun taman.</p>
-              <p class="card-price"><span class="price-currency">IDR</span> 574.425.000/ Unit</p>
+            {{-- <div class="sold-tag">SOLD OUT</div> --}}
+            <h3 class="card-title">Kost Premium 6</h3>
+            <p class="card-description">Tipe Kost Premium 6 kamar memberikan anda kesempatan 
+              untuk merasakan pendapatan pasif hingga 15jt/bulan, 
+              didukung dengan fasilitas yang lengkap, dibangun 
+              diatas tanah seluas 60m² dan dengan bangunan 
+              seluas 75m². Serta sudah dilengkapi dengan 6 kamar mandi dalam.
+              <p class="card-price"><span class="price-currency">IDR</span> 850.000.000/ Unit</p>
             <div class="card-images">
               <div class="card-image-item">
                 <img src="../images/kasur.png" alt="Image 1" class="image1">
-                <span>4</span>
+                <span>6</span>
               </div>
               <div class="card-image-item">
                 <img src="../images/bath.png" alt="Image 2" class="image2">
-                <span>4</span>
+                <span>6</span>
               </div>
               <div class="card-image-item">
                 <img src="../images/luas.png" alt="Image 3" class="image3">
-                <span>45</span>
+                <span>75m²</span>
               </div>
             </div>
             <a href="https://wa.me/62811122997" class="btn-more-info">Selengkapnya</a>
@@ -151,9 +152,76 @@
         </div>
         <!-- Card 3 -->
         <div class="card">
+          <div class="card-image" style="background-image: url('../images/8.jpg');"></div>
+          <div class="card-content">
+            <div class="sold-tag">BEST SELLER</div>
+            <h3 class="card-title">Kost Exclusive 8 </h3>
+            <p class="card-description"><b>BEST SELLER!</b> Tipe Kost Exclusive 8 kamar memberikan anda kesempatan
+               untuk merasakan pendapatan pasif hingga 20jt/bulan, 
+               didukung dengan fasilitas yang lengkap, dibangun 
+               diatas tanah seluas 60m² dan dengan bangunan 
+               seluas 95m². Serta sudah dilengkapi dengan 
+               8 kamar mandi dalam.
+               <p class="card-price" style="font-size: 12px; margin-bottom: 2px;">
+                <span class="price-currency">IDR</span> 
+                <span style="text-decoration: line-through;">950.000.000</span>/ Unit
+              </p>
+              <p class="card-discount-price" style="font-weight: bold; font-size: 20px; margin-top: 0;">
+                <span class="price-currency">IDR</span> 799.000.000
+              </p>
+                         
+            <div class="card-images">
+              <div class="card-image-item">
+                <img src="../images/kasur.png" alt="Image 1" class="image1">
+                <span>8</span>
+              </div>
+              <div class="card-image-item">
+                <img src="../images/bath.png" alt="Image 2" class="image2">
+                <span>8</span>
+              </div>
+              <div class="card-image-item">
+                <img src="../images/luas.png" alt="Image 3" class="image3">
+                <span>95m²</span>
+              </div>
+            </div>
+            <a href="https://wa.me/62811122997" class="btn-more-info">Selengkapnya</a>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="card">
+          <div class="card-image" style="background-image: url('../images/16.jpg');"></div>
+          <div class="card-content">
+            {{-- <div class="sold-tag">SOLD OUT</div> --}}
+            <h3 class="card-title">Kost Exclusive 16</h3>
+            <p class="card-description">Tipe Kost Exclusive 16 kamar memberikan anda kesempatan 
+              untuk merasakan pendapatan pasif hingga 25jt/bulan, 
+              didukung dengan fasilitas yang lengkap, dibangun 
+              diatas tanah seluas 200m² dan dengan bangunan 
+              seluas 230m². Serta sudah dilengkapi dengan 
+              16 kamar mandi dalam.
+              <p class="card-price"><span class="price-currency">IDR</span> 1.900.000.000./ Unit</p>
+            <div class="card-images">
+              <div class="card-image-item">
+                <img src="../images/kasur.png" alt="Image 1" class="image1">
+                <span>16</span>
+              </div>
+              <div class="card-image-item">
+                <img src="../images/bath.png" alt="Image 2" class="image2">
+                <span>16</span>
+              </div>
+              <div class="card-image-item">
+                <img src="../images/luas.png" alt="Image 3" class="image3">
+                <span>230m²</span>
+              </div>
+            </div>
+            <a href="https://wa.me/62811122997" class="btn-more-info">Selengkapnya</a>
+          </div>
+        </div>
+        <!-- Card 5 -->
+        <div class="card">
           <div class="card-image" style="background-image: url('../images/type3.jpeg');"></div>
           <div class="card-content">
-            <div class="sold-tag">SOLD OUT</div>
+            {{-- <div class="sold-tag">SOLD OUT</div> --}}
             <h3 class="card-title">Emerald</h3>
             <p class="card-description">Tipe Emerald dengan void memiliki 2 luas <br>
               tanah 60m dengan luas 2 terbangun 50m. <br>
@@ -180,73 +248,12 @@
             <a href="https://wa.me/62811122997" class="btn-more-info">Selengkapnya</a>
           </div>
         </div>
-        <!-- Card 4 -->
-        <div class="card">
-          <div class="card-image" style="background-image: url('../images/type4.jpg');"></div>
-          <div class="card-content">
-            <div class="sold-tag">SOLD OUT</div>
-            <h3 class="card-title">Kostel</h3>
-            <p class="card-description">Tipe kostel merupakan pilihan investasi <br>
-              terbaik berupa rumah kost dengan <br>
-              standard hotel. Didesain di atas tanah <br>
-              seluas 60m dengan luas lantai terbangun <br>
-              seluas 67m. Tipe kostel ditunjang dengan <br>
-              fasilitas-fasilitas terbaik demi kenyamanan <br>
-              dan kemudahan aktifitas penghuni.</p>
-              <p class="card-price"><span class="price-currency">IDR</span> 689.500.000/ Unit</p>
-            <div class="card-images">
-              <div class="card-image-item">
-                <img src="../images/kasur.png" alt="Image 1" class="image1">
-                <span>4</span>
-              </div>
-              <div class="card-image-item">
-                <img src="../images/bath.png" alt="Image 2" class="image2">
-                <span>4</span>
-              </div>
-              <div class="card-image-item">
-                <img src="../images/luas.png" alt="Image 3" class="image3">
-                <span>67</span>
-              </div>
-            </div>
-            <a href="https://wa.me/62811122997" class="btn-more-info">Selengkapnya</a>
-          </div>
-        </div>
-        <!-- Card 5 -->
-        <div class="card">
-          <div class="card-image" style="background-image: url('../images/type5.jpg');"></div>
-          <div class="card-content">
-            <div class="sold-tag">SOLD OUT</div>
-            <h3 class="card-title">Kostel Exclusive</h3>
-            <p class="card-description">Cluster tipe kostel merupakan pilihan <br>
-              investasi terbaik berupa rumah kost <br>
-              dengan standard hotel. Didesain di atas <br>
-              tanah seluas 60m dengan luas lantai <br>
-              terbangun seluas 67m. Dengan fasilitas-<br>
-              fasilitas terbaik demi kenyamanan dan <br>
-              kemudahan aktifitas <br> penghuni.</p>
-              <p class="card-price"><span class="price-currency">IDR</span> 699.500.000/ Unit</p>
-            <div class="card-images">
-              <div class="card-image-item">
-                <img src="../images/kasur.png" alt="Image 1" class="image1">
-                <span>4</span>
-              </div>
-              <div class="card-image-item">
-                <img src="../images/bath.png" alt="Image 2" class="image2">
-                <span>4</span>
-              </div>
-              <div class="card-image-item">
-                <img src="../images/luas.png" alt="Image 3" class="image3">
-                <span>67</span>
-              </div>
-            </div>
-            <a href="https://wa.me/62811122997" class="btn-more-info">Selengkapnya</a>
-          </div>
-        </div>
+        
         <!-- Card 6 -->
         <div class="card">
           <div class="card-image" style="background-image: url('../images/type6.jpg');"></div>
           <div class="card-content">
-            <div class="sold-tag">SOLD OUT</div>
+            {{-- <div class="sold-tag">SOLD OUT</div> --}}
             <h3 class="card-title">Villatel</h3>
             <p class="card-description">Villatel didesain setara dengan hunian <br>
               berkelas untuk keluarga yang mengusung <br>
@@ -278,7 +285,7 @@
         <div class="card">
           <div class="card-image" style="background-image: url('../images/type7.jpg');"></div>
           <div class="card-content">
-            <div class="sold-tag">SOLD OUT</div>
+            {{-- <div class="sold-tag">SOLD OUT</div> --}}
             <h3 class="card-title">Amethyst</h3>
             <p class="card-description">Dibangun diatas tanah seluas 193m <br>
               dengan luas terbangung 150m,Villa <br>

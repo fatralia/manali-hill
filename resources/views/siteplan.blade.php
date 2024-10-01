@@ -77,6 +77,10 @@
           </div>
         </nav>
       </div>
+      <a href="https://wa.me/62811122997" class="hubungi-wa">
+        <img src="../images/wa2.png" alt="WhatsApp Logo" class="whatsapp-logo">
+        HUBUNGI WA
+    </a>
     </header>
     <!-- end header section -->
 
