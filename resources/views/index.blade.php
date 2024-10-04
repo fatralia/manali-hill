@@ -251,16 +251,16 @@
     <h1 class="program-title">Program</h1>
     <div class="image-container">
       <div class="image-box">
-        <img src="images/program1.jpeg" alt="Program 1">
+        <img src="images/stu1.jpg" alt="Program 1">
       </div>
       <div class="image-box">
-        <img src="images/program2.jpeg" alt="Program 2">
+        <img src="images/shm1.jpg" alt="Program 2">
       </div>
       <div class="image-box">
-        <img src="images/program1.jpeg" alt="Program 3">
+        <img src="images/bangun2.jpg" alt="Program 3">
       </div>
       <div class="image-box">
-        <img src="images/program2.jpeg" alt="Program 4">
+        <img src="images/stu2.jpg" alt="Program 4">
       </div>
     </div>
     <a href = "/program"><button class="program-button">Lihat Program</button></a>

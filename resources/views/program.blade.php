@@ -93,13 +93,13 @@
             <h3 class="subtitle">Program Serah Terima Unit</h3>
             <div class="image-row">
                 <div class="image-box">
-                    <img src="../images/program1.jpeg" alt="Image 1">
+                    <img src="../images/stu1.jpg" alt="Image 1">
                 </div>
                 <div class="image-box">
-                    <img src="../images/program2.jpeg" alt="Image 2">
+                    <img src="../images/stu2.jpg" alt="Image 2">
                 </div>
                 <div class="image-box">
-                    <img src="../images/program1.jpeg" alt="Image 3">
+                    <img src="../images/stu3.jpg" alt="Image 3">
                 </div>
             </div>
     
@@ -107,13 +107,13 @@
             <h3 class="subtitle">Program Serah Terima SHM</h3>
             <div class="image-row">
                 <div class="image-box">
-                    <img src="../images/program2.jpeg" alt="Image 4">
+                    <img src="../images/shm1.jpg" alt="Image 4">
                 </div>
                 <div class="image-box">
-                    <img src="../images/program1.jpeg" alt="Image 5">
+                    <img src="../images/shm5.jpg" alt="Image 5">
                 </div>
                 <div class="image-box">
-                    <img src="../images/program2.jpeg" alt="Image 6">
+                    <img src="../images/shm2.jpg" alt="Image 6">
                 </div>
             </div>
     
@@ -121,13 +121,13 @@
             <h3 class="subtitle">Progress Bangun</h3>
             <div class="image-row">
                 <div class="image-box">
-                    <img src="../images/program1.jpeg" alt="Image 7">
+                    <img src="../images/bangun3.jpg" alt="Image 7">
                 </div>
                 <div class="image-box">
-                    <img src="../images/program2.jpeg" alt="Image 8">
+                    <img src="../images/bangun2.jpg" alt="Image 8">
                 </div>
                 <div class="image-box">
-                    <img src="../images/program1.jpeg" alt="Image 9">
+                    <img src="../images/bangun4.jpg" alt="Image 9">
                 </div>
             </div>
     
